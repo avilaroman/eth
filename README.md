@@ -1,14 +1,16 @@
-# Ethereum Mining Calculator
-View live version of [Ethereum Mining Calculator](https://badmofo.github.io/ethereum-mining-calculator/).
+# Calculadora de minado de Ethereums
+Pueden ver la version en vivo funcionando de la [Calculadora de minado de Ethereums](https://avilaroman.github.io/ethereum-mining-calculator/).
 
-## Calculations
+## Cálculos
+
+Prácticos para poder llegar a Calcular el ROI de una inversion en RIGs de minado.
 
 ### Network hashrate 
 
-We estimated the network hashrate in *GH* using the following equation.
+Nosotros estimamos el hashrate en "GH" usando la siguiente ecuación:
 
 ```
 netHashGH = (difficulty / blockTime) / 1e9;
 ```
 
-Where `difficulty` is the current difficulty to mine a block and `blockTime` is the networks current block time.
+Donde `difficulty` es la actual dificultad para minar un bloque y `blockTime` es el tiempo del bloque actual de la red, están adquiridos en timpo real ambos datos del BlockChain.
