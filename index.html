@@ -19,7 +19,10 @@
 <body ng-controller="EtherMiningCtrl" ng-cloak>
   <div class="container">
     <div class="row text-center">
-      <h1>Calculadora de ganancias en minando de Ethereum</h1>
+      <h1>Calculadora de ganancias minando Ethereums <img src="http://ethtrade.bxcoins.com/en/wp-content/uploads/2016/10/ethtrade-logo3-150x130.png" alt="Logo Ethereum">
+
+
+      </h1>
     </div>
   </div>
 
@@ -36,7 +39,7 @@
             <div class="col-lg-7">
               <select ng-model="userChoice" ng-change="updateUserHash()" class="form-control">
                 <option value="">Elije tu hardware de GPU</option>
-                <option value="1" selected>MHash</option>
+                <option value="1" selected>MHash/s</option>
                 <option value="76.5">5 x AMD HD 7950 - Windows x64</option>
                 <option value="100.5">5 x AMD HD 7970 - Windows x64</option>
                 <option value="101.5">5 x AMD R9 380x - Windows x64</option>
@@ -63,7 +66,7 @@
             </div>
           </div>
           <div class="form-group">
-            <label class="col-lg-5 control-label">..o ingresa tu Hashrate en MHashes/s manualmente</label>
+            <label class="col-lg-5 control-label">o ingresa tus MHashes/s manualmente</label>
             <div class="col-lg-7">
               <input 
                 type="text" 
@@ -179,7 +182,7 @@
         <ul>
           <li>
             <a href="https://forum.ethereum.org/discussion/2134/gpu-mining-is-out-come-and-let-us-know-of-your-bench-scores">Puntuaciones de minado GPU</a>
-            
+
           </li>
         </ul>
       </div>
